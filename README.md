@@ -6,8 +6,6 @@ This project is a **Single Page Application (SPA)** built using the **MERN stack
 
 The project implements full CRUD functionality, adheres to best practices for API design, and provides a responsive and user-friendly interface.
 
----
-
 #### **Features**
 
 1. **Frontend (React.js)**:
@@ -29,8 +27,6 @@ The project implements full CRUD functionality, adheres to best practices for AP
    - Input validation to ensure data integrity.
    - Uses MongoDB for persistent data storage.
 
----
-
 #### **Technology Stack**
 
 - **Frontend**:
@@ -44,16 +40,12 @@ The project implements full CRUD functionality, adheres to best practices for AP
   - Express.js
   - MongoDB with Mongoose (for database interaction)
 
----
-
 #### **Setup Instructions**
 
 ##### Prerequisites:
 - Node.js and npm installed.
 - MongoDB installed and running locally or on a cloud service.
 - Environment variables configured in `.env` files.
-
----
 
 #### **Installation and Usage**
 
@@ -82,8 +74,6 @@ The project implements full CRUD functionality, adheres to best practices for AP
    - Start the development server with `npm start`.
    - Open [http://localhost:8000](http://localhost:8000) to access the application.
 
----
-
 #### **Application Workflow**
 
 1. **Home Page**:
@@ -107,8 +97,6 @@ The project implements full CRUD functionality, adheres to best practices for AP
      - Displays a success message.
      - Redirects to the Home Page.
 
----
-
 #### **Data Model**
 
 Each document in the MongoDB `exercises` collection includes:
@@ -121,8 +109,6 @@ Each document in the MongoDB `exercises` collection includes:
 | `unit`   | String    | Unit of weight (`kgs` or `lbs`).                 |
 | `date`   | String    | Date in the format MM-DD-YY.                     |
 
----
-
 #### **Validation**
 
 - **Backend**:
@@ -131,8 +117,6 @@ Each document in the MongoDB `exercises` collection includes:
 
 - **Frontend**:
   - Ensures users provide valid data before sending requests to the backend.
-
----
 
 #### **Technical Details**
 
@@ -148,15 +132,11 @@ Each document in the MongoDB `exercises` collection includes:
    - Custom styles in `App.css` to enhance UI/UX.
    - Styled HTML table and forms for consistency.
 
----
-
 #### **Deployment**
 
 - Deploy the React frontend to a static hosting service like Netlify or Vercel.
 - Deploy the Node.js backend to a cloud platform like Heroku.
 - Connect the MongoDB database using a cloud-hosted service like MongoDB Atlas.
-
----
 
 #### **Future Enhancements**
 
@@ -165,4 +145,3 @@ Each document in the MongoDB `exercises` collection includes:
 - Add tests for both frontend (e.g., React Testing Library) and backend (e.g., Jest).
 - Support additional exercise attributes (e.g., duration, category).
 
----
