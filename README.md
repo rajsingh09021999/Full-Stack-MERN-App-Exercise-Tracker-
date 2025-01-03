@@ -1,7 +1,5 @@
 ### README: MERN Stack Exercise Tracker
 
----
-
 #### **Project Overview**
 
 This project is a **Single Page Application (SPA)** built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**. The application allows users to track exercises, including details such as repetitions, weight, and date. It consists of a RESTful API backend and a React-based frontend to manage and display exercise data.
